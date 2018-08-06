@@ -24,7 +24,7 @@ class CraftklinikLife extends PluginBase implements Listener {
 		
 		switch($cmd->getName()){
 			
-			case "test":
+			case "life":
 				if($sender instanceof Player){
 					$this->openMyForm($sender);
 					if($sender->hasPermission("use.life")){
