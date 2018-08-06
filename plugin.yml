@@ -1,11 +1,11 @@
 name: CraftklinikLife
 main: CraftklinikLife\CraftklinikLife
 api: [3.1.1]
-version: 1.0.0
+version: 1.1.0
 author: Craftklinik
 
 commands:
- test:
+ life:
   description: "Use Life Command"
   permission: use.life
 
